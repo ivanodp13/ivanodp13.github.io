@@ -87,7 +87,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin-bottom: 20px; display: block; background: #226597; }
+	margin-bottom: 20px; display: block; background: #87c0cc; }
 	
 .margin-t-10{ margin-top: 10px; }
 
@@ -103,6 +103,9 @@ b.max-bold{ font-weight: 700; }
 .font-semi-white{ color: #ddd; }
 
 .font-lite-black{ color: #999; }
+
+.btn-primary{background: #87c0cd; color: #fff; border-color: #87c0cd; border-radius: 2em}
+.btn-primary:hover{background: #fff; color: #226597; border-color: #fff;}
 
 
 /* ---------------------------------
