@@ -98,6 +98,8 @@ b.max-bold{ font-weight: 700; }
 
 .font-blue{ color: #226597; }
 
+.font-softblue{ color: #87c0cd; }
+
 .font-semi-white{ color: #ddd; }
 
 .font-lite-black{ color: #999; }
@@ -209,7 +211,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #28023D; color: #fff; }
+.experience-section{ background: #226597; color: #fff; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
@@ -230,7 +232,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+	box-shadow: 0 0 0 8px rgba(34,101,151, .4); background: #226597; }
 	
 	
 /* ---------------------------------
@@ -238,7 +240,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1; 
-	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
+	/*background-image: url(../../images/slider-2-1920x600.jpg);*/ color: #fff; }
 
 .counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -265,9 +267,9 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 	
 	
-/* ---------------------------------
-10. FOOTER
+---------------------------------
+/*10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+/*.copyright{ text-align: center; padding: 30px 0; background: #226597; }*/
 
