@@ -226,8 +226,65 @@
                         </div><!-- col-sm-6-->
 
                     </div><!-- row -->
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/xcode.png" alt="">
+                                <h6>Xcode</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/androidstudio.png" alt="">
+                                <h6>Android Studio</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/netbeans.png" alt="">
+                                <h6>NET Beans</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" class="icons-box-images" src="images/icons/dreamweaver.png" alt="">
+                                <h6>Dreamweaver</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/brackets.png" alt="">
+                                <h6>Brackets</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/wordpress.png" alt="">
+                                <h6>Wordpress</h6>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/mamp.png" alt="">
+                                <h6>MAMP</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/postman.png" alt="">
+                                <h6>Postman</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/visualstudio.png" alt="">
+                                <h6>Visual Studio</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/git.png" alt="">
+                                <h6>Git</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/photoshop.png" alt="">
+                                <h6>Photoshop</h6>
+                            </div>
+                            <div class="col-md-2 icons-box">
+                                <img class="icons-box-images" src="images/icons/xd.png" alt="">
+                                <h6>XD</h6>
+                            </div>
+
+                        </div>
+                    </div>
                 </div><!-- col-sm-8 -->
             </div><!-- row -->
+
         </div><!-- container -->
     </section><!-- about-section -->
 
@@ -331,17 +388,17 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4" class="font-semi-white">Nombre</label>
-                                    <input name="name" type="text " class="form-control" placeholder="Name" required>
+                                    <input name="name" type="text " class="form-control" placeholder="Nombre" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4" class="font-semi-white">Email</label>
-                                    <input name="_replyto" type="email" class="form-control" placeholder="Email" required>
+                                    <input name="_replyto" type="email" class="form-control email email-box" id="email" placeholder="Email" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="exampleFormControlTextarea1" class="font-semi-white">Mensaje</label>
-                                    <textarea class="form-control" rows="4" name="message"></textarea>
+                                    <textarea class="form-control" rows="4" name="message" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -355,26 +412,6 @@
         </div><!-- container -->
 
     </section><!-- contact-section -->
-
-
-
-
-
-
-
-
-
-
-    <!--<footer>
-<p class="copyright">
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    <!--Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    <!--</p>
-
-
-</footer>-->
-
 
     <!-- SCIPTS -->
 
@@ -394,9 +431,25 @@
 
     <script src="common-js/scripts.js"></script>
 
-    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
 
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="js/jquery.email-autocomplete.js"></script>
+
+    <script>
+        (function($) {
+            $(function() {
+                $(".email").emailautocomplete({
+                    domains: ["example.com"] //add your own domains
+                });
+            });
+        }(jQuery));
+
+    </script>
+
 
 
 </body>

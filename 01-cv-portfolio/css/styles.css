@@ -208,6 +208,8 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
 
+.icons-box{text-align: center; display: inline-block; font-size: .8em}
+
 	
 
 /* ---------------------------------
@@ -270,9 +272,11 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 	
 	
----------------------------------
-/*10. FOOTER
+/*---------------------------------
+10. FOOTER
 --------------------------------- */
+
+.eac-sugg{color: #999;}
 
 /*.copyright{ text-align: center; padding: 30px 0; background: #226597; }*/
 

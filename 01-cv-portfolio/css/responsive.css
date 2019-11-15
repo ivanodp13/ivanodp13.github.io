@@ -82,6 +82,17 @@
 
 }
 
+/* Screens Resolution : 768px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+	
+	/* ---------------------------------
+	1. Icons Boxes About section
+	--------------------------------- */
+
+    .icons-box-images{width: 25%}
+    
+
 /* Screens Resolution : 575px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 575px) {
