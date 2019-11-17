@@ -22,9 +22,9 @@
 	8. EDUCATION SECTION
 	9. COUNTER SECTION
 	10. FOOTER
+    11. switch
 
 ====================================================
-
 
 /* ---------------------------------
 1. PRIMARY STYLES
@@ -37,6 +37,67 @@ html {
     margin: 0px;
     padding: 0px;
     touch-action: manipulation;
+
+
+    --primary-color: #226597;
+    --secondary-color: #87c0cd;
+    --font-color-h2: #252627;
+    /*titles*/
+    --font-color-h4: #316e9d;
+    /*title subtitle*/
+    --font-color-mail: #252627;
+    --font-color-h3: #252627;
+    /*section title*/
+    --font-color-tisub: #b4b4b4;
+    /*section title subtitle*/
+    --bg-color: #fff;
+    --bg-particles-color: #fcf8f8;
+    --heading-color: #226597;
+    --font-blue: #87c0cd;
+    --radial-text-color: #252627;
+    --icons-text-color: #2d2d2d;
+    --education-graphic-line: #ccc;
+
+}
+
+html[data-theme='dark'] {
+    --primary-color: #226597;
+    --secondary-color: #87c0cd;
+    --font-color-h2: #fcf9f9;
+    /*titles*/
+    --font-color-h4: #316e9d;
+    /*title subtitle*/
+    --font-color-mail: #fcf9f9;
+    --font-color-h3: #fcf9f9;
+    /*section title*/
+    --font-color-tisub: #b4b4b4;
+    /*section title subtitle*/
+    --bg-color: #313131;
+    --bg-particles-color: #3c3c3c;
+    --heading-color: #226597;
+    --font-blue: #87c0cd;
+    --radial-text-color: #b4b4b4;
+    --icons-text-color: #b4b4b4;
+    --education-graphic-line: #8f8f8f;
+}
+
+
+
+
+.title-color {
+    color: var(--font-color-h2);
+}
+
+.title-email-color {
+    color: var(--font-color-mail);
+}
+
+.section-title-color {
+    color: var(--font-color-h3);
+}
+
+.icons-text {
+    color: var(--icons-text-color);
 }
 
 
@@ -267,7 +328,7 @@ header {
 header .heading-wrapper {
     border-radius: 5px;
     padding: 30px 40px 20px;
-    background: #226597;
+    background: var(--primary-color);
     color: #fff;
 }
 
@@ -296,6 +357,12 @@ header .downlad-btn {
     transition: all .2s ease;
 }
 
+header .light-btn {
+    width: 25px;
+    float: left;
+    margin-top: 30px;
+}
+
 header .downlad-btn:hover {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
@@ -308,7 +375,7 @@ header .downlad-btn:hover {
 #particles-js {
     height: 500px;
     width: 100%;
-    background-color: #fcf9f9;
+    background-color: var(--bg-particles-color);
     position: absolute;
     top: 0;
     z-index: -1;
@@ -341,14 +408,14 @@ header .downlad-btn:hover {
     right: 0;
     height: 150px;
     z-index: -1;
-    background: #fff;
+    background: var(--bg-color);
 }
 
 .intro {
     padding: 0 20px;
     margin-top: 100px;
     text-align: center;
-    background: #fff;
+    background: var(--bg-color);
     /*position: absolute;
   left: 500px;
   top: -200px;
@@ -412,7 +479,8 @@ header .downlad-btn:hover {
 
 .portfolio-section {
     padding-bottom: 0;
-    z-index: 0
+    z-index: 0;
+    background-color: var(--bg-color);
 }
 
 .portfolio-section .portfolioFilter {
@@ -546,6 +614,9 @@ header .downlad-btn:hover {
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
+.about-section {
+    background-color: var(--bg-color);
+}
 
 .radial-progress {
     position: relative;
@@ -557,7 +628,7 @@ header .downlad-btn:hover {
     font-size: 2.2em;
     font-weight: 500;
     padding-bottom: 25px !important;
-    color: #333 !important;
+    color: var(--font-color-tisub) !important;
 }
 
 .radial-progress .progressbar-text:after {
@@ -621,6 +692,9 @@ header .downlad-btn:hover {
 /* ---------------------------------
 8. EDUCATION SECTION
 --------------------------------- */
+.education-section {
+    background-color: var(--bg-color);
+}
 
 .education-wrapper {
     position: relative;
@@ -633,7 +707,7 @@ header .downlad-btn:hover {
     bottom: 0;
     left: -51px;
     width: 2px;
-    background: #ccc;
+    background: var(--education-graphic-line);
 }
 
 .education-wrapper .education {
@@ -708,7 +782,7 @@ header .downlad-btn:hover {
     font-size: 2.2em;
     font-weight: 500;
     padding-bottom: 25px !important;
-    color: #333 !important;
+    color: var(--radial-text-color) !important;
 }
 
 .radial-progress .progressbar-text:after {
@@ -736,4 +810,70 @@ header .downlad-btn:hover {
     color: #999;
 }
 
-/*.copyright{ text-align: center; padding: 30px 0; background: #226597; }*/
+
+/*---------------------------------
+11. switch (theme)
+--------------------------------- */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    border-radius: 4px;
+    float: left;
+    margin-top: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--secondary-color);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    border-color: var(--font-color-tisub) -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: var(--primary-color);
+}
+
+
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+    background-color: var(--bg-color);
+}
