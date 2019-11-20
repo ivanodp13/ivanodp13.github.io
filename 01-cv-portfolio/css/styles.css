@@ -37,6 +37,7 @@ html {
     margin: 0px;
     padding: 0px;
     touch-action: manipulation;
+    background-color: var(--bg-color);
 
 
     --primary-color: #226597;
@@ -386,7 +387,7 @@ header .downlad-btn:hover {
     position: relative;
     background-size: cover;
     z-index: 1;
-    background-color: white;
+    background-color: var(--bg-color);
 }
 
 .intro-section:before {
@@ -397,7 +398,7 @@ header .downlad-btn:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: var(--bg-color);
 }
 
 .intro-section:after {

@@ -5,7 +5,7 @@
   var pluginName = "emailautocomplete";
   var defaults = {
     suggClass: "eac-sugg",
-    domains: ["yahoo.com", "hotmail.com", "gmail.com", "me.com", "aol.com", "mac.com", "live.com", "comcast.net", "googlemail.com", "msn.com", "hotmail.co.uk", "yahoo.co.uk", "facebook.com", "verizon.net", "sbcglobal.net", "att.net", "gmx.com", "outlook.com", "icloud.com", "yahoo.es", "hotmail.es", "gmail.es"]
+    domains: ["yahoo.com", "hotmail.com", "gmail.com", "yahoo.com", "me.com", "aol.com", "mac.com", "live.com", "comcast.net", "googlemail.com", "msn.com", "hotmail.co.uk", "yahoo.co.uk", "facebook.com", "verizon.net", "sbcglobal.net", "att.net", "gmx.com", "outlook.com", "icloud.com", "yahoo.es", "hotmail.es", "gmail.es"]
   };
 
   function EmailAutocomplete(elem, options) {

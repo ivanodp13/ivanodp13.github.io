@@ -12,6 +12,7 @@
 	.counter{ display: inline-block; }
 	
 	.counter .desc{ text-align: left; }
+    .particles-js{width: 100%;}
 }
 
 /* Screens Resolution : 992px
@@ -23,6 +24,7 @@
 	--------------------------------- */
 
 	.intro-section{ padding-top: 250px; }
+    .particles-js{width: 100%;}
 	
 }
 
@@ -56,6 +58,7 @@
 	--------------------------------- */
 
 	.intro-section{ padding-top: 350px; }
+    .particles-js{width: 100%;}
 
 
 	/* ---------------------------------
@@ -91,6 +94,7 @@
 	--------------------------------- */
 
     .icons-box-images{width: 25%}
+    .particles-js{width: 100%;}
     
 
 /* Screens Resolution : 575px
@@ -109,6 +113,7 @@
 	--------------------------------- */
 	
 	.portfolio-section .p-item{ width: 100%; }
+    .particles-js{width: 100%;}
 	
 }
 
@@ -116,6 +121,7 @@
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 479px) {
 
+    .particles-js{width: 100%;}
 
 }
 
@@ -132,6 +138,7 @@
 	header .info .icon{ font-size: 25px; }
 
 	header .info .right-area{ margin-left: 35px; }
+    .particles-js{width: 100%;}
 
 }
 
@@ -139,7 +146,7 @@
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 290px) {
 
-	
+	.particles-js{width: 100%;}
 }
 
 /* Screens Resolution : 290px
@@ -155,6 +162,7 @@
 	header .info .icon{ font-size: 15px; }
 
 	header .info .right-area{ margin-left: 20px; }
+    .particles-js{width: 100%;}
 	
 	/* ---------------------------------
 	4. INTRO SECTION
