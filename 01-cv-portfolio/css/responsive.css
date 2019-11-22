@@ -94,8 +94,7 @@
     .icons-box-images{width: 25%}
     .particles-js{width: 100%;}
     
-    .formcon{padding-bottom: 25px;
-    width: 100%;}
+    .formcon{padding-bottom: 25px;}
 }
 
 /* Screens Resolution : 575px
@@ -115,6 +114,8 @@
 	
 	.portfolio-section .p-item{ width: 100%; }
     .particles-js{width: 100%;}
+    
+    .formcon{padding-bottom: 25px;}
 	
 }
 
@@ -123,6 +124,8 @@
 @media only screen and (max-width: 479px) {
 
     .particles-js{width: 100%;}
+    
+    .formcon{padding-bottom: 25px;}
 
 }
 
@@ -140,6 +143,8 @@
 
 	header .info .right-area{ margin-left: 35px; }
     .particles-js{width: 100%;}
+    
+    .formcon{padding-bottom: 25px;}
 
 }
 
@@ -148,6 +153,8 @@
 @media only screen and (max-width: 290px) {
 
 	.particles-js{width: 100%;}
+    
+    .formcon{padding-bottom: 25px;}
 }
 
 /* Screens Resolution : 290px
@@ -172,5 +179,7 @@
 	.intro .profile-img{ width: 80%; height: auto; top: 0; margin-bottom: 10px; }
 	
 	.intro{ padding: 20px 10px 0; margin-right: -15px; margin-left: -15px; }
+    
+    .formcon{padding-bottom: 25px;}
 	
 }
