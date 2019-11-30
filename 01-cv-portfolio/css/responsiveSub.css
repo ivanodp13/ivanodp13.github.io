@@ -98,8 +98,8 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .apptext{
+
+    .apptext {
         margin-bottom: 30px;
     }
 
@@ -161,6 +161,14 @@
 
     .formcon {
         padding-bottom: 25px;
+    }
+
+    .carousel-item {
+        height: 280px;
+    }
+
+    .textCoveredimg {
+        padding-left: 0px;
     }
 }
 
